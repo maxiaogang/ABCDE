@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    body{
+        background: #3c3c3c;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .wrapper{
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        width:760px;
+        height:800px;
+        background: white;
+        border-radius: 15px;
+    }
+    .header{
+        width:760px;
+        height: 300px;
+    }
+    .divs{
+        height: 300px;
+        width: 760px;
+        text-align: center;
+    }
+    .divs p{
+        margin-top: 40px;
+    }
+    .divs span{
+        font-size: 35px;
+    }
+    .content{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .div1{
+
+        margin-bottom: 50px;
+        overflow: hidden;
+        width: 100%;
+        padding-right: 30px;
+        position: relative;
+        border-bottom: 1px solid #3c3c3c;
+    }
+    .div1 input{
+        border:none;
+        border-width: 0;
+        height: 50px;
+        padding-left: 50px;
+        padding-right: 15px;
+    }
+    .div1 img{
+        position: absolute;
+        left: 10px;
+        top: 3px;
+    }
+    .btn{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: green;
+        color: white;
+    }
+</style>
+<div class="wrapper">
+    <header class="header">
+        <div class="divs">
+            <p><img src="./images/banner/logo_01.png" alt=""/></p>
+            <span>设备测试预约系统</span>
+        </div>
+    </header>
+    <div class="content">
+            <div class="div1"><img src="./images/banner/icon_01.png" alt=""/><input type="text" class="txt" placeholder="请输入手机号码"/></div>
+            <div class="div1"><img src="./images/banner/icon_03.png" alt=""/><input type="password" class="txt" placeholder="请输入密码"/></div>
+    </div>
+    <div class="footer">
+        <input type="button" class="btn" value="登录账号,开始预约"/>
+    </div>
+</div>
+
+<script>
+
+</script>
+</body>
+</html>
